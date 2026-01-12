@@ -57,8 +57,11 @@ h1 {
     overflow-y: auto;
 }
 
-.taskDone {
+.toDoItem {
+    cursor: pointer;
+}
+
+.toDoCompleted {
     text-decoration: line-through;
-    text-decoration-thickness: 2px;
-    color: rgb(182, 182, 182);
+    color: gray;
 }
